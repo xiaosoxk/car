@@ -1,0 +1,35 @@
+# 编译产物
+*.o
+*.d
+*.axf
+*.elf
+*.bin
+*.hex
+*.htm
+*.lst
+*.map
+Debug/
+Release/
+Objects/
+Listings/
+
+# IDE 杂项
+.settings/
+.metadata/
+*.project
+*.cproject
+*.mxproject
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 训练产物（大文件按需提交）
+# ppo_balance.pt
+# ppo_balance.onnx
+
+# 系统垃圾
+Thumbs.db
+.DS_Store
